@@ -1,0 +1,106 @@
+*{
+    font-family:  sans-serif;
+    color:#111111;
+    
+}
+/*h1{
+    text-transform: capitalize;
+    text-align: center;
+}
+h2{
+    text-transform: capitalize;
+    text-align: center;
+}
+li{
+    list-style-type:square0;
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+.column{
+    display: flex;
+    justify-content: center;
+    list-style-image: url("../images/taj.jpg");
+}
+.aspect{
+    list-style-position: outside;
+}
+.text{
+    list-style-position: inside;
+}*/
+table{
+    width: 600px;
+}
+.class{
+    text-align: left;
+    text-transform: capitalize;
+}
+th,td{
+    padding: 7px 10px 10px 10px;
+}
+th{
+    text-transform: uppercase;
+    padding: 2px 2px 2px 2px;
+    padding: 10px;
+    border-top: 1px solid grey;
+    border-bottom: 2px solid black;
+    text-align: left;
+    font-size: 90%;
+}
+.column{
+    text-transform: capitalize;
+    
+    
+}
+tr.text{
+    text-transform: capitalize;
+    background-color:cadetblue;
+}
+.rows{
+     background-color: cadetblue;
+}
+td:hover{
+    background-color:darkblue;
+    color:white;
+}
+td{
+    padding: 15px;
+    border: 2px solid blue;
+}
+.one{
+    empty-cells: show;
+    border-spacing: 100px;
+    border-collapse: collapse;
+
+}
+fieldset{
+    margin-top: 10%;
+    border-radius: 10px;
+    text-align:justify;
+    
+}
+legend{
+    text-transform: uppercase;
+    background-color: rgb(182, 155, 20);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+input[type="button"]{
+    background-color: rgb(26, 165, 44);
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+input[type="button"]:hover{
+    background-color: blue;
+    text-align: right;
+}
+a{
+    cursor: auto;
+    text-decoration: none;
+}

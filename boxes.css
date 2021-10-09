@@ -1,0 +1,77 @@
+*{
+    font-family: sans-serif;
+}
+div{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+p.text{
+    width: 75%;
+    height: 75%;
+    background-color: blue;
+}
+td.class{
+    min-width: 450px;
+    min-height: 650;
+    text-align: left;
+    padding: 5px;
+    margin: 0px
+}
+.space{
+      border-top: 35px solid;
+}
+.one{
+    border-style: solid;
+    border-top-color: red;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.two{
+    border-style: dotted;
+    border-top-style: groove;
+    border-top-color: teal;
+}
+.three{
+    border-style: dashed;
+    border-color:tomato;
+
+}
+.four{
+    border-style: double;
+}
+.five{
+    border-style: groove;
+}
+.six{
+    border-style: inset;
+}
+.seven{
+    border-style: ridge;
+}
+.eight{
+    border-style: outset;
+}
+.nine{
+    border-style: hidden;
+}
+.pop{
+   padding: 40px;
+   border: 3px solid red;
+   text-align: center;
+}
+.body{
+    margin: 2px;
+    border: 2px solid blue;
+    text-align: center;
+}
+li{
+    display: inline;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    visibility: visible;
+}
+li:hover{
+    background-color:black;
+}
